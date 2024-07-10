@@ -129,6 +129,11 @@ main{
     margin-bottom: 24px;
 }
 
+.insp-section .insp-description{
+    font-size: 21px;
+    text-align: center;
+}
+
 .iframe-content{
     width: 1520px;
     height: 820px;
@@ -137,4 +142,73 @@ main{
     padding: 48px;
     border: 1px solid rgba(13, 19, 33, 0.2);
     margin-top: 48px;
+}
+
+.target-section{
+    margin: 0 auto;
+    max-width: 1520px;
+    margin-top: 150px;
+}
+
+.target-section .target-head{
+    max-width: 1135px;
+    margin: 0 auto;
+}
+
+.target-section .target-title{
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.target-section .target-description{
+    font-size: 21px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+}
+
+.card-container .card{
+    max-width: 485px;
+    height: 300px;
+    padding: 53px;
+    border-radius: 16px;
+}
+
+.card-container .card-title{
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.card-container .card-description{
+    font-size: ;
+    margin-bottom: 32px;
+}
+
+.card-container .card-footer{
+    
+}
+.card-image{
+    width: 53px;
+    height: 60px;
+    margin-bottom: 32px;
+}
+.color-1{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.color-2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.color-3{
+    background-color: rgba(255, 223, 0, 0.05);
 }
