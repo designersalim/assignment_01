@@ -246,6 +246,10 @@ main{
 .support-section{
     border-radius: 16px;
     background-image: url(assets/handshake.jpg);
+
+/* I am trying many time to give the shadow on the image but this don't take the shadow. Also for this problem I revision previous class related of this. but i don't find any solution. when i give the shadow with liner gradient the image going out.*/
+
+    background-size: cover;
     width: 1520px;
     height: 420px;
     margin: 0 auto;
