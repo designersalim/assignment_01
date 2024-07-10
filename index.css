@@ -5,11 +5,10 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: "Azeret Mono", monospace;
+    max-width: 1440px;
 }
 
-header{
-    font-family:azeret Mono;
-}
 .heading-section{
     background-image: url(assets/Hero-bg.png);
     background-repeat: no-repeat;
@@ -57,9 +56,36 @@ header{
 
 /* developement content */
 
-.development-container{
-    background-color: rgba(13, 19, 33, 0.02);
-    height: 1395px;
+
+main{
     max-width: 1140px;
+    margin: 0 auto;
     border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin-top: 74px;
+}
+
+.development-section{
+    padding: 80px 97px;
+}
+.development-section .section-title{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.development-section .title-section{
+    padding: 0px 48px 48px 48px;
+}
+
+.development-section .section-paragraph{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 48px;
+}
+.box-content-1{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 48px;
 }
