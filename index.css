@@ -63,6 +63,7 @@
 
 main{
     max-width: 1520px;
+    height: 1860px;
     margin: 0 auto;
     border-radius: 21px;
     background: rgba(13, 19, 33, 0.02);
@@ -71,7 +72,7 @@ main{
 }
 
 .development-section{
-    padding: 85px 100px;
+    padding: 107px 130px;
 }
 .development-section .section-title{
     text-align: center;
@@ -87,16 +88,19 @@ main{
     text-align: center;
     font-size: 21px;
     font-weight: 530;
-    margin-bottom: 48px;
     color: rgb(13, 19, 33);
     opacity: 0.7;
-
+    margin-bottom: 64px;
 }
+
 .box-content-1{
     display: flex;
     justify-content: space-between;
     text-align: left;
     padding: 64px;
+    background-color: white;
+    margin-top: 43px;
+    border-radius: 21px;
 }
 
 .development-section .box-content-1 .title{
@@ -113,13 +117,15 @@ main{
 
 }
 
- .box-btn{
+.development-section .box-btn{
     width: 250px;
     height: 64px;
     font-size: 27px;
     padding: 12px 20px;
-    text-align: center;
-    border: 5px solid black;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    text-decoration: none;
 }
 
 .development-section .box-content-1 .box-image01{
@@ -249,6 +255,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 79px;
 }
 
 .support-section .support-title{
@@ -267,7 +274,7 @@ main{
     text-align: center;
     margin-bottom: 52px;
     color: white
-    opacity: 0.7;
+    opacity 0.7;
 
 }
 
@@ -292,4 +299,19 @@ main{
     border: none;
     margin-left: 20px;
     cursor: pointer;
+}
+
+.footer-section{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 42px 200px;
+}
+
+.footer-section .footer-heading{
+    font-size: 26px;
+    font-weight: 800px;
 }
