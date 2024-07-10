@@ -6,7 +6,7 @@
     margin: 0px;
     padding: 0px;
     font-family: "Azeret Mono", monospace;
-    max-width: 1440px;
+    max-width: 1920px;
 }
 
 .heading-section{
@@ -14,7 +14,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 700px;
+    height: 870px;
 }
 .heading-contents{
     display: flex;
@@ -24,32 +24,32 @@
 }
 
 .heading-section .group-image{
-    margin: 26px 0 32px 0;
+    margin: 35px 0 43px 0;
 }
 
 .heading-section .heading-line{
-    font-size: 48px;
+    font-size: 64px;
     text-align: center;
-    margin-bottom: 24px;
+    margin-bottom: 32px;
     font-weight: 800;
 }
 
 .heading-section .paragraph-01{
-    font-size: 16px;
+    font-size: 21px;
     text-align: center;
-    margin-bottom: 32px;
+    margin-bottom: 43px;
 }
 
 .heading-section .btn{
-    width: 208px;
-    height: 66px;
-    font-size: 20px;
+    width: 278px;
+    height: 88px;
+    font-size: 27px;
     font-weight: 600;
     text-align: center;
     background-color: black;
     color: white;
-    border-radius: 8px;
-    padding: 21px 24px 21px 24px;
+    border-radius: 10px;
+    padding: 28px 32px 28px 32px;
     border: none;
     text-decoration: none;
 }
@@ -58,20 +58,21 @@
 
 
 main{
-    max-width: 1140px;
+    max-width: 1520px;
     margin: 0 auto;
-    border-radius: 16px;
+    border-radius: 21px;
     background: rgba(13, 19, 33, 0.02);
-    margin-top: 74px;
+    margin-top: 98px;
+    margin-bottom: 98px;
 }
 
 .development-section{
-    padding: 80px 97px;
+    padding: 85px 100px;
 }
 .development-section .section-title{
     text-align: center;
-    font-size: 32px;
-    margin-bottom: 24px;
+    font-size: 43px;
+    margin-bottom: 32px;
 }
 
 .development-section .title-section{
@@ -80,12 +81,60 @@ main{
 
 .development-section .section-paragraph{
     text-align: center;
-    font-size: 16px;
+    font-size: 21px;
     margin-bottom: 48px;
 }
 .box-content-1{
     display: flex;
     justify-content: space-between;
     text-align: left;
+    padding: 64px;
+}
+
+.development-section .box-content-1 .title{
+    font-size: 32px;
+    margin-bottom: 21px;
+}
+
+.development-section .box-content-1 .description{
+    font-size: 21px;
+    margin-bottom: 43px;
+}
+
+ .box-btn{
+    width: 250px;
+    height: 64px;
+    font-size: 27px;
+    padding: 12px 20px;
+    text-align: center;
+    border: 5px solid black;
+}
+
+.development-section .box-content-1 .box-image01{
+    margin-left: 95px;
+}
+
+.development-section .box-content-1 .box-image02{
+    margin-right: 95px;
+}
+
+.insp-section{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.insp-section .insp-title{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+
+.iframe-content{
+    width: 1520px;
+    height: 820px;
+    margin: 0 auto;
+    border-radius: 16px;
     padding: 48px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    margin-top: 48px;
 }
